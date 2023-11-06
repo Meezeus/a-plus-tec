@@ -1,0 +1,48 @@
+** Version [3.0.0] - 2023/11/06
+*** Added
+- Added buttons in the changelog window to view older and newer versions.
+- Added an icon for the app.
+- Added scrolling functionality to the Cross Number Puzzle game questions.
+
+*** Changed
+- Leaving blank squares in the Cross Number Puzzle game no longer counts as a failure. It now has its own response.
+- When a new highscore is achieved, the highscore popup window will now appear after the victory screen has updated.
+- Highscore entries now line up with each other properly.
+- Changed the "Retry" button to "Restart".
+- Increased font sizes.
+- Changed layout of Cross Number Puzzle game questions.
+- Changed how GUI scaling works.
+- Highscore window is no longer resizable.
+- Menu version label no longer shows date.
+
+
+
+** Version [2.0.0] - 2020/09/22
+*** Added
+- Added a version number to the main menu.
+- Added a button to view the changelog to the main menu.
+- Added a retry button to the Cross Number Puzzle game.
+- Added two difficulty settings to the Cross Number Puzzle game. Easy difficulty has answers 1-3 digits long and single digit division only. Hard difficulty has answers 1-6 digits long and double digit division.
+- Added more puzzle templates to the Cross Number Puzzle game.
+- Added an exit button to the main menu.
+- Added a black outline to text labels.
+- Added sound effects upon pressing the submit button of the Cross Number Puzzle game.
+- Added time taken and mistakes made to the victory screen.
+- Added a scoring system.
+- Added highscores.
+- The program now 'installs' itself, creating all necessary folders and extracting all necessary resources.
+
+*** Changed
+- Changed all sizes to be relative to the screen size. Program should now work on all screen sizes and all scaling.
+- Changed several puzzle templates of the Cross Number Puzzle game.
+- Changed the title and buttons in menus to scale with the window size.
+- Changed the layout of the buttons in the main menu.
+
+*** Fixed
+- Window minimum size being too large on scaled screens.
+- Program not working in some cases on macOS or Linux.
+
+
+
+** Version [1.0.0] - 2020/09/01
+- Initial release.

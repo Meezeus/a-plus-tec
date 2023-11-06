@@ -1,0 +1,7 @@
+- D - - - - -
+A O O - - B O
+- O - A O O -
+- - - - - O -
+- D - B O - D
+- A O O - A O
+- - - O - - O

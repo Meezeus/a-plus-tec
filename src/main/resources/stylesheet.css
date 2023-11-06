@@ -1,0 +1,223 @@
+/* Everything */
+.root {
+    -fx-font-family: Arial;
+    -fx-background: #155ca2;
+    -fx-text-color: #e9d758;
+}
+
+/* Separators */
+.separator .line {
+-fx-border-style: solid;
+-fx-border-color: black;
+-fx-border-width: 1px;
+}
+
+/**************************************** Menus ****************************************/
+
+/* Label used for menu titles */
+.title-label {
+    -fx-text-fill: -fx-text-color;
+}
+.title-label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 1.5px;
+}
+
+/* Buttons used in menus */
+.menu-button {
+    -fx-text-fill: -fx-background;
+    -fx-background-color: -fx-text-color;
+    -fx-focus-color: transparent;
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+}
+.menu-button:hover {
+    -fx-background-color: orange;
+}
+.menu-button:pressed {
+    -fx-background-color: darkorange;
+}
+
+/* Version number label in menu */
+.version-label {
+    -fx-text-fill: -fx-text-color;
+}
+.version-label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 0.1px;
+}
+
+/* Button to view changelog */
+.changelog-button {
+    -fx-text-fill: -fx-background;
+    -fx-background-color: -fx-text-color;
+    -fx-focus-color: transparent;
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+}
+.changelog-button:hover {
+    -fx-background-color: orange;
+}
+.changelog-button:pressed {
+    -fx-background-color: darkorange;
+}
+
+/**************************************** Changelog ****************************************/
+
+/* Changelog scrollpane in the popup window */
+.changelog-scrollpane {
+    -fx-font-size: 10px;
+    -fx-background-color:transparent;
+}
+
+/* Changelog entry in the popup window */
+.changelog-entry-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: -fx-text-color;
+}
+.changelog-entry-label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 0.15px;
+}
+
+/* Button to change changelog entry */
+.change-version-button {
+    -fx-font-size: 15px;
+    -fx-text-fill: -fx-background;
+    -fx-background-color: -fx-text-color;
+    -fx-focus-color: transparent;
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+}
+.change-version-button:hover {
+    -fx-background-color: orange;
+}
+.change-version-button:pressed {
+    -fx-background-color: darkorange;
+}
+
+/**************************************** Highscores ****************************************/
+
+/* Button to view highscores */
+.highscore-button {
+    -fx-text-fill: -fx-background;
+    -fx-background-color: -fx-text-color;
+    -fx-focus-color: transparent;
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+}
+.highscore-button:hover {
+    -fx-background-color: orange;
+}
+.highscore-button:pressed {
+    -fx-background-color: darkorange;
+}
+
+/* Label used for the title of the highscore popup */
+.highscore-title-label {
+    -fx-font-size: 30px;
+    -fx-text-fill: -fx-text-color;
+}
+.highscore-title-label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 0.5px;
+}
+
+/* Label used to show the actual highscores. It uses a monospace font to ensure
+ * the characters line up with each other. */
+.highscore-monospace-label {
+    -fx-font-family: Consolas;
+    -fx-font-size: 20px;
+    -fx-text-fill: -fx-text-color;
+}
+.highscore-monospace-label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 0.2px;
+}
+
+/* Text field used to enter name for new highscores */
+.highscore-text-field {
+    -fx-font-size: 20px;
+}
+
+/**************************************** Cross Number Puzzle ****************************************/
+
+/* A square in the puzzle grid. */
+.puzzle-square-used {
+    -fx-border-color: black;
+    -fx-background-color: white;
+}
+
+/* An empty square in the puzzle grid. */
+.puzzle-square-unused {
+    -fx-border-color: black;
+    -fx-background-color: grey;
+}
+
+/* A text field in the puzzle grid. */
+.puzzle-square-text-field {
+    -fx-font-size: 0px; /* This get overridden, but it needs to have a value set in the style sheet to avoid problems */
+}
+
+/* A question id number in the puzzle grid */
+.puzzle-square-number-label {
+    -fx-font-size: 0px; /* This get overridden, but it needs to have a value set in the style sheet to avoid problems */
+    -fx-text-fill: black;
+}
+
+/* Changelog scrollpane in the popup window */
+.puzzle-scrollpane {
+    -fx-font-size: 10px;
+    -fx-background-color:transparent;
+}
+
+/* A larger heading, used for questions across, down and the outcome label. */
+.puzzle-heading-label {
+    -fx-font-size: 30px;
+    -fx-text-fill: -fx-text-color;
+}
+.puzzle-heading-label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 0.3px;
+}
+
+/* A question */
+.puzzle-question-label {
+    -fx-font-size: 20px;
+    -fx-text-fill: -fx-text-color;
+}
+.puzzle-question-label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 0.2px;
+}
+
+/* Label used for outcome of pressing the submit button */
+.outcome-label {
+    -fx-font-size: 25px;
+    -fx-text-fill: -fx-text-color;
+}
+.outcome-label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 0.3px;
+}
+
+/* Label used for displaying stats at the end of the game */
+.stats-label {
+    -fx-font-size: 25px;
+    -fx-text-fill: -fx-text-color;
+}
+.stats-label .text {
+    -fx-stroke: black;
+    -fx-stroke-width: 0.3px;
+}
+
+/* Buttons used in the puzzle */
+ .puzzle-button {
+     -fx-font-size: 18px;
+     -fx-text-fill: -fx-background;
+     -fx-background-color: -fx-text-color;
+     -fx-focus-color: transparent;
+     -fx-background-insets: 0 0 0 0, 0, 0, 0;
+ }
+ .puzzle-button:hover {
+     -fx-background-color: orange;
+ }
+ .puzzle-button:pressed {
+     -fx-background-color: darkorange;
+ }
