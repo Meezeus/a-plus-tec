@@ -8,7 +8,7 @@ solved.
 
 ![](https://github.com/Meezeus/a-plus-tec/blob/60f0a880dc6b2e4a22a43f9b873adaed7fed3848/a-plus-tec-puzzle.png?raw=true)
 
-## Usage
+## Installation / Usage
 
 The easiest way to run the program is to download the *.jar* file and double
 click it (make sure you have [Java](https://www.java.com/en/) installed and set
